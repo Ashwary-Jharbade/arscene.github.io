@@ -5,10 +5,19 @@
     <body>
         <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
             <a-marker preset="hiro">
-                <a-box position="-1 0.5 -2" rotation="0 45 0" color="#4CC3D9"></a-box>
-                <a-sphere position="0 1.25 -2" radius="1.1" color="#EF2D5E"></a-sphere>
-                <a-cylinder position="1 0.75 -1" radius="0.2" height="2" color="#FFC65D"></a-cylinder>
-                <a-plane position="0 -10 0" rotation="-90 0 0" width="10" height="10" color="#7BC8A4"></a-plane>
+                <a-plane
+                    position="0 2 -5"
+                    rotation="0 0 0"
+                    width="10"
+                    height="3"
+                    src="https://images.unsplash.com/photo-1549036960-3a8bb045a953?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTgwfHxjYXJkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                >
+                    <a-text
+                        color="#000000"
+                        position="-2.5 0.25 0"
+                        value="Ashwary Jharbade\nAssociate Software Technologist - CESIT\n\n Professional Connect: https://in.linkedin.com/in/ashwary-jharbade\nhttps://github.com/Ashwary-Jharbade"
+                    ></a-text>
+                </a-plane>
             </a-marker>
             <a-entity camera></a-entity>
         </a-scene>
